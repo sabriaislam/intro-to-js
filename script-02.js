@@ -1,10 +1,10 @@
-let num1 = 1;
-let num2 = 2;
+let num1 = 2;
+let num2 = 1;
 
 if (num1 > num2){
-   alert('number 1 is greater than 2');
+   alert('num1 is greater than num2');
 }else if (num2 > num1){
-   alert('they are not the same!!');
+   alert('num2 is greater than num1');
 }else{
-   alert("they are equal");
+   alert("num1 and num2 are equal");
 }
